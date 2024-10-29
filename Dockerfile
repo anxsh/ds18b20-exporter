@@ -10,4 +10,4 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 COPY . .
 
-CMD [ "python", "./ds18b20-prometheus-exporter.py" ]
+CMD [ "python", "./ds18b20-exporter.py" ]
